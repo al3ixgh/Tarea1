@@ -1,0 +1,86 @@
+body{
+    border-style:groove;
+    font-family: 'Lucida Sans Unicode';
+    padding: 1em;
+    border-bottom-width: 2em;
+    width: 900px;
+    border-radius: 5px;
+}
+ul{ 
+    list-style: none; 
+    padding-left: 0px;
+}
+.titulo{
+    margin-left: 15%;
+}
+
+h1{
+    display: inline;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+    color: rebeccapurple;
+}
+
+.info{
+    border-style: solid;
+    margin-left: 5px;
+    background: linear-gradient(180deg, rgba(128, 128, 128, 0.425), 5%, white 100%);
+    
+}
+
+div h2{
+    padding-top: 10px;
+    margin: 5px;
+    border-bottom: red;
+    border-bottom: solid;
+
+}
+
+img{
+    object-fit:contain;
+}
+
+div p{
+    margin: 5px;
+}
+div.titulo{
+    text-align: center;
+    border: none;
+}
+
+.fondo{
+    background-image: url(/parquenatural/imagenes/panoramica.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    border-style: none;
+}
+
+h3{
+    color: orange;
+}
+
+.button:hover{
+    background-color: palegoldenrod;
+}
+
+.button {
+    
+    /* background-color:palegreen; */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 3em;
+    height: 2em;
+    margin: 5px;
+  }
+
+  .pasive{
+    background: linear-gradient(180deg, palegreen 30%, white 100%);
+  }
