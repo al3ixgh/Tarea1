@@ -1,25 +1,5 @@
 body{
     background-color: lightgoldenrodyellow;
-    font-family:Helvetica;
+    font-family:fantasy;
     margin: 5px;
-}
-ul{
-    list-style: none;
-}
-
-h2{
-    background-color: yellow;
-    color: teal;
-}
-
-h1{
-    color: blue;
-}
-
-em{
-    color: cornflowerblue;
-}
-
-h3{
-    color: rgb(6, 6, 65);
 }
